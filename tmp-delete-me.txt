@@ -1,1 +1,0 @@
-Throwaway file used to validate the delete_file MCP tool. Will be deleted in the next commit.
