@@ -85,7 +85,7 @@ fun_fact:    "Every day is a learning opportunity."
   </tr>
 </table>
 
-> Want the story of how this profile is built? See [GUIDE.md](./GUIDE.md).
+> Want the story of how this profile is built? See [GUIDE.md](./GUIDE.md) and [BUILD-GUIDE.md](./BUILD-GUIDE.md).
 
 ---
 
@@ -121,6 +121,30 @@ fun_fact:    "Every day is a learning opportunity."
 
 ---
 
+## Daily Quote
+
+<!--STARTS_HERE_QUOTE_CARD-->
+> Make it work, make it right, make it fast. --- *Kent Beck*
+<!--ENDS_HERE_QUOTE_CARD-->
+
+*This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
+
+---
+
+## Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinothhacks/vinothhacks/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinothhacks/vinothhacks/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/vinothhacks/vinothhacks/output/github-snake.svg" />
+  </picture>
+</p>
+
+*Generated daily by [`.github/workflows/snake.yml`](./.github/workflows/snake.yml). The first run will populate the `output` branch.*
+
+---
+
 ## How This Profile Is Powered
 
 This README is **maintained with MCP servers** running through Cursor:
@@ -129,7 +153,7 @@ This README is **maintained with MCP servers** running through Cursor:
 - **`user-linkedin` MCP** -- fetches profile context and lets me cross-post project highlights.
 - **`user-llm-mcp`** -- drives ChatGPT and Claude via stealth Playwright (Patchright) for content drafts and code reviews.
 
-See [`GUIDE.md`](./GUIDE.md) for the full step-by-step playbook (badges, dynamic widgets, GitHub Actions, MCP automation).
+See [`GUIDE.md`](./GUIDE.md) and [`BUILD-GUIDE.md`](./BUILD-GUIDE.md) for the full step-by-step playbook (badges, dynamic widgets, GitHub Actions, MCP automation).
 
 ---
 
