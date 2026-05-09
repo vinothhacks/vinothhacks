@@ -1,0 +1,10 @@
+[
+  { "text": "Premature optimization is the root of all evil.",                       "author": "Donald Knuth" },
+  { "text": "Programs must be written for people to read, and only incidentally for machines to execute.", "author": "Hal Abelson" },
+  { "text": "Talk is cheap. Show me the code.",                                       "author": "Linus Torvalds" },
+  { "text": "Make it work, make it right, make it fast.",                             "author": "Kent Beck" },
+  { "text": "The only way to go fast is to go well.",                                 "author": "Robert C. Martin" },
+  { "text": "Simplicity is prerequisite for reliability.",                            "author": "Edsger W. Dijkstra" },
+  { "text": "Walking on water and developing software from a specification are easy if both are frozen.", "author": "Edward V. Berard" },
+  { "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", "author": "Martin Fowler" }
+]
