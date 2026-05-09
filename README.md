@@ -36,7 +36,7 @@ fun_fact:    "Every day is a learning opportunity."
 - I automate GitHub, LinkedIn and LLM chat workflows using **MCP** (Model Context Protocol) servers.
 - I love clean repos, tested code, and reproducible setups.
 - I plan to write about MCP, automation, and ML -- coming soon.
-- Reach me on [LinkedIn](https://www.linkedin.com/) or via the email on my profile.
+- Reach me on [LinkedIn](https://www.linkedin.com/in/vinothhacks) or via my GitHub profile.
 
 ---
 
@@ -60,12 +60,14 @@ fun_fact:    "Every day is a learning opportunity."
       <a href="https://github.com/vinothhacks/PythonSpark-Igniting-Ideas-with-Python">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=PythonSpark-Igniting-Ideas-with-Python&theme=tokyonight&hide_border=true" alt="PythonSpark" />
       </a>
+      <br/>
       <p><b>PythonSpark</b> -- Intermediate-level Python scripts built to fuel creativity and drive innovation.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/vinothhacks/Web-Development">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=Web-Development&theme=tokyonight&hide_border=true" alt="Web Development" />
       </a>
+      <br/>
       <p><b>Web-Development</b> -- HTML / CSS / JavaScript experiments and mini-projects.</p>
     </td>
   </tr>
@@ -74,6 +76,7 @@ fun_fact:    "Every day is a learning opportunity."
       <a href="https://github.com/vinothhacks/vinothhacks">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=vinothhacks&theme=tokyonight&hide_border=true" alt="Profile README" />
       </a>
+      <br/>
       <p><b>vinothhacks (this repo)</b> -- Profile README + a guide for building a great showcase repo, MCP-driven.</p>
     </td>
     <td width="50%" valign="top">
@@ -97,7 +100,7 @@ fun_fact:    "Every day is a learning opportunity."
     </td>
     <td width="50%">
       <p align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=vinothhacks&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+        <img src="https://streak-stats.demolab.com/?user=vinothhacks&theme=tokyonight&hide_border=true" alt="Streak Stats" />
       </p>
     </td>
   </tr>
@@ -134,8 +137,8 @@ See [`GUIDE.md`](./GUIDE.md) for the full step-by-step playbook (badges, dynamic
 
 <p align="center">
   <a href="https://github.com/vinothhacks"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:vinothhacks@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/vinothhacks"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:98448783+vinothhacks@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center">
