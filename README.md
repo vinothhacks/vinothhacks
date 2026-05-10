@@ -124,7 +124,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Make it work, make it right, make it fast. --- *Kent Beck*
+> Simplicity is prerequisite for reliability. --- *Edsger W. Dijkstra*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
