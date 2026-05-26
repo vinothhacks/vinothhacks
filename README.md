@@ -124,7 +124,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Talk is cheap. Show me the code. --- *Linus Torvalds*
+> Walking on water and developing software from a specification are easy if both are frozen. --- *Edward V. Berard*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
