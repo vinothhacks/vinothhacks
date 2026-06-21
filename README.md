@@ -124,7 +124,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Simplicity is prerequisite for reliability. --- *Edsger W. Dijkstra*
+> Talk is cheap. Show me the code. --- *Linus Torvalds*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
