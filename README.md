@@ -124,7 +124,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Premature optimization is the root of all evil. --- *Donald Knuth*
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand. --- *Martin Fowler*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
