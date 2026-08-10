@@ -16,6 +16,9 @@
   <a href="https://github.com/vinothhacks?tab=followers">
     <img src="https://img.shields.io/github/followers/vinothhacks?label=Follow&style=for-the-badge&color=1f6feb&logo=github" alt="GitHub followers" />
   </a>
+  <a href="https://portfolio-vinothhacks-projects.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-3D%20Site-1f6feb?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 ---
@@ -36,7 +39,7 @@ fun_fact:    "Every day is a learning opportunity."
 - I automate GitHub, LinkedIn and LLM chat workflows using **MCP** (Model Context Protocol) servers.
 - I love clean repos, tested code, and reproducible setups.
 - I plan to write about MCP, automation, and ML -- coming soon.
-- Reach me on [LinkedIn](https://www.linkedin.com/in/vinothhacks) or via my GitHub profile.
+- Reach me on [LinkedIn](https://www.linkedin.com/in/vinoth-nagarajan1) or via my GitHub profile.
 
 ---
 
@@ -54,36 +57,36 @@ fun_fact:    "Every day is a learning opportunity."
 
 ## Featured Projects
 
+<!--STARTS_HERE_FEATURED-->
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/vinothhacks/PythonSpark-Igniting-Ideas-with-Python">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=PythonSpark-Igniting-Ideas-with-Python&theme=tokyonight&hide_border=true" alt="PythonSpark" />
-      </a>
-      <br/>
-      <p><b>PythonSpark</b> -- Intermediate-level Python scripts built to fuel creativity and drive innovation.</p>
+      <a href="https://github.com/vinothhacks/graphforge-neo4j"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=graphforge-neo4j&theme=tokyonight&hide_border=true" alt="graphforge-neo4j" /></a><br/><p><b>graphforge-neo4j</b> — Turn Git repositories and relational databases into a Neo4j knowledge graph, queryable over MCP.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/vinothhacks/Web-Development">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=Web-Development&theme=tokyonight&hide_border=true" alt="Web Development" />
-      </a>
-      <br/>
-      <p><b>Web-Development</b> -- HTML / CSS / JavaScript experiments and mini-projects.</p>
+      <a href="https://github.com/vinothhacks/overseer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=overseer&theme=tokyonight&hide_border=true" alt="overseer" /></a><br/><p><b>overseer</b> — Give your AI coding agent a built-in supervisor: four guardrails (security, accessibility, validation, data-loss), technical-debt tracking, and plain-language traffic-light reports. Works with Claude Code, Cursor, and more.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/vinothhacks/vinothhacks">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=vinothhacks&theme=tokyonight&hide_border=true" alt="Profile README" />
-      </a>
-      <br/>
-      <p><b>vinothhacks (this repo)</b> -- Profile README + a guide for building a great showcase repo, MCP-driven.</p>
+      <a href="https://github.com/vinothhacks/naoh"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=naoh&theme=tokyonight&hide_border=true" alt="naoh" /></a><br/><p><b>naoh</b> — book-to-skill — turn a PDF/MD/DOCX book into a Claude Code skill (skill mode + provider-agnostic API mode).</p>
     </td>
     <td width="50%" valign="top">
-      <p align="center"><i>More coming soon -- MCP automation tools, ML notebooks, and side projects.</i></p>
+      <a href="https://github.com/vinothhacks/agentic-edge-platform-lab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=agentic-edge-platform-lab&theme=tokyonight&hide_border=true" alt="agentic-edge-platform-lab" /></a><br/><p><b>agentic-edge-platform-lab</b> — Self-service internal platform for edge/load-balancing infrastructure with FastAPI, async workers, dynamic Envoy config, and agentic AI. Educational but production-style.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/vinothhacks/kairos"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=kairos&theme=tokyonight&hide_border=true" alt="kairos" /></a><br/><p><b>kairos</b> — kairos picks the right LLM technique for any task by querying a curated wiki of agent patterns - RAG, ReAct, Reflexion, and 17 more. Karpathy LLM Wiki + rule-based selector + 3 working runners. Zero API keys (routes through llm-mcp).</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/vinothhacks/PythonSpark-Igniting-Ideas-with-Python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vinothhacks&repo=PythonSpark-Igniting-Ideas-with-Python&theme=tokyonight&hide_border=true" alt="PythonSpark-Igniting-Ideas-with-Python" /></a><br/><p><b>PythonSpark-Igniting-Ideas-with-Python</b> — Explore PythonSpark's intermediate-level Python scripts, crafted to fuel creativity and drive innovation. Elevate your projects with diverse code snippets. Unleash your potential with PythonSpark.</p>
     </td>
   </tr>
 </table>
+<!--ENDS_HERE_FEATURED-->
+
+*This block is auto-refreshed daily from my real public repos by [`.github/workflows/featured.yml`](./.github/workflows/featured.yml) (runs `scripts/update-featured.js`).*
 
 > Want the story of how this profile is built? See [GUIDE.md](./GUIDE.md) and [BUILD-GUIDE.md](./BUILD-GUIDE.md).
 
@@ -157,11 +160,29 @@ See [`GUIDE.md`](./GUIDE.md) and [`BUILD-GUIDE.md`](./BUILD-GUIDE.md) for the fu
 
 ---
 
+## On LinkedIn
+
+**Vinoth Nagarajan** — Software Engineer @ Solverminds · Chennai, India
+*Transforming data into actionable insights with Python, TensorFlow, Machine Learning, and PostgreSQL.*
+
+- Building scalable data pipelines + automation for maritime logistics (vessel schedules, AIS, ETA prediction with RNNs).
+- 3+ years on Python / Django / PostgreSQL; currently driving ChatGPT & Claude through MCP for end-to-end automation.
+
+**Recent posts:**
+- **Ascend AI — learn AI by thinking, not just using** (15 tracks, 279 modules, zero video) — [read](https://www.linkedin.com/feed/update/urn:li:activity:7480857115511791616/)
+- **Overseer — a built-in supervisor for your AI coding agent** (open source) — [read](https://www.linkedin.com/feed/update/urn:li:activity:7477963481103806464/)
+- **Kairos is live on PyPI** — `pip install kairos-agent` — [read](https://www.linkedin.com/feed/update/urn:li:activity:7474347800139341824/)
+
+Connect: [linkedin.com/in/vinoth-nagarajan1](https://www.linkedin.com/in/vinoth-nagarajan1/)
+
+---
+
 ## Connect With Me
 
 <p align="center">
   <a href="https://github.com/vinothhacks"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/vinothhacks"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/vinoth-nagarajan1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://portfolio-vinothhacks-projects.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="mailto:98448783+vinothhacks@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
