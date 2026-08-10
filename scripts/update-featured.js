@@ -6,6 +6,8 @@
 //   <!--STARTS_HERE_FEATURED--> ... <!--ENDS_HERE_FEATURED-->
 // The rest of README.md is untouched. Exits 0 with "no change" if identical.
 //
+// Cards use shields.io badges (reliable) instead of the flaky github-readme-stats Vercel app.
+//
 // Env: GITHUB_TOKEN (optional but avoids rate limits). Runs in GitHub Actions daily.
 
 const https = require("https");
@@ -19,7 +21,7 @@ const TOKEN = process.env.GITHUB_TOKEN || "";
 const EXCLUDE = new Set(["vinothhacks", "Web-Development", "mcp-sandbox-2605"]);
 
 // Optional: force-include repos by name (e.g. a private repo you want highlighted).
-// Pinned items render with a "private" badge and no clickable pin-card link if private.
+// Pinned private repos render with a "private" badge.
 const PIN = [];
 
 function api(path) {
@@ -52,14 +54,19 @@ function escapeHtml(s) {
   return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function pinCard(repo) {
-  // Uses the github-readme-stats pin-card image (same as the existing README).
-  return `<a href="https://github.com/${USER}/${repo.name}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${USER}&repo=${encodeURIComponent(repo.name)}&theme=tokyonight&hide_border=true" alt="${escapeHtml(repo.name)}" /></a>`;
-}
-
-function privateCard(repo) {
-  // For pinned private repos: no clickable pin card; show a styled badge instead.
-  return `<img alt="${escapeHtml(repo.name)} (private)" src="https://img.shields.io/badge/${encodeURIComponent(repo.name)}-private-6e7681?style=for-the-badge&logo=github" />`;
+// Reliable badge cluster (shields.io) — no dependency on the flaky github-readme-stats Vercel app.
+function badges(repo) {
+  if (repo.private) {
+    return `<img alt="private" src="https://img.shields.io/badge/repo-private-6e7681?style=flat&logo=github" />`;
+  }
+  const u = USER;
+  const n = repo.name;
+  return [
+    `<img src="https://img.shields.io/github/stars/${u}/${n}?style=flat&color=f1c40f&logo=github" alt="stars" />`,
+    `<img src="https://img.shields.io/github/forks/${u}/${n}?style=flat&color=58a6ff&logo=github" alt="forks" />`,
+    `<img src="https://img.shields.io/github/languages/top/${u}/${n}?style=flat&color=1f6feb" alt="language" />`,
+    `<img src="https://img.shields.io/github/last-commit/${u}/${n}?style=flat&color=6e7681" alt="last commit" />`,
+  ].join("&nbsp;");
 }
 
 function renderTable(items) {
@@ -73,9 +80,10 @@ function renderTable(items) {
         cells.push('<p align="center"><i>More shipping soon — MCP automation, ML notebooks, side projects.</i></p>');
         continue;
       }
-      const card = it.repo.private ? privateCard(it.repo) : pinCard(it.repo);
-      const desc = escapeHtml(it.repo.description || "");
-      cells.push(`${card}<br/><p><b>${escapeHtml(it.repo.name)}</b> — ${desc}</p>`);
+      const r = it.repo;
+      const url = `https://github.com/${USER}/${r.name}`;
+      const desc = escapeHtml(r.description || "");
+      cells.push(`<p><a href="${url}"><b>${escapeHtml(r.name)}</b></a><br/><sub>${badges(r)}</sub></p><p>${desc}</p>`);
     }
     rows.push(`  <tr>\n    <td width="50%" valign="top">\n      ${cells[0]}\n    </td>\n    <td width="50%" valign="top">\n      ${cells[1]}\n    </td>\n  </tr>`);
   }
