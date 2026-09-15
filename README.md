@@ -127,7 +127,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Premature optimization is the root of all evil. --- *Donald Knuth*
+> The only way to go fast is to go well. --- *Robert C. Martin*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
