@@ -127,7 +127,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Walking on water and developing software from a specification are easy if both are frozen. --- *Edward V. Berard*
+> Programs must be written for people to read, and only incidentally for machines to execute. --- *Hal Abelson*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
