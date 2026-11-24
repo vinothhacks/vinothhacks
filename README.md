@@ -127,7 +127,7 @@ fun_fact:    "Every day is a learning opportunity."
 ## Daily Quote
 
 <!--STARTS_HERE_QUOTE_CARD-->
-> Premature optimization is the root of all evil. --- *Donald Knuth*
+> Programs must be written for people to read, and only incidentally for machines to execute. --- *Hal Abelson*
 <!--ENDS_HERE_QUOTE_CARD-->
 
 *This card is auto-rotated daily by [`.github/workflows/quote.yml`](./.github/workflows/quote.yml).*
